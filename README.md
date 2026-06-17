@@ -12,6 +12,7 @@ Projects in this repository may cover:
 
 * Machine Learning
 * Deep Learning
+* Computer Vision
 * Natural Language Processing (NLP)
 * Transformer Models
 * Data Analysis & Visualization
@@ -32,16 +33,22 @@ Each project is organized in its own directory and typically includes:
 * Implementation Details
 * Results and Insights
 
-Datasets are excluded from version control to keep the repository lightweight and focused on code and analysis.
+Datasets and large model files are excluded from version control to keep the repository lightweight and focused on code and analysis.
 
 ---
 
 ## Current Projects
 
+### Machine Learning
+
 * CreditWise Loan Approval Prediction System
 * SmartCart Customer Segmentation System
 
-Additional projects will be added as I continue learning and experimenting with new AI concepts and technologies.
+### Deep Learning
+
+* ANN Power Plant Energy Prediction
+* CNN CIFAR-10 Image Classification
+* RNN IMDB Sentiment Analysis
 
 ---
 
@@ -55,8 +62,9 @@ Some of the tools and frameworks used across projects include:
 * Matplotlib
 * Seaborn
 * Scikit-Learn
-* TensorFlow
 * PyTorch
+* TensorFlow
+* NLTK
 * Hugging Face Transformers
 * Jupyter Notebook
 
@@ -66,6 +74,8 @@ Some of the tools and frameworks used across projects include:
 
 The primary goal of this repository is to build practical experience by implementing concepts learned through coursework, self-study, research papers, and hands-on experimentation.
 
+Projects range from classical machine learning models to deep learning architectures for computer vision and natural language processing.
+
 ---
 
 ## Author
@@ -74,4 +84,3 @@ The primary goal of this repository is to build practical experience by implemen
 
 BS in Data Science and Applications, IIT Madras
 
-Interested in Applied AI, Machine Learning, Deep Learning, LLMs, and Intelligent Systems.
