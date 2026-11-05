@@ -1,86 +1,105 @@
-# Minor AI Projects
+# 🧠 Minor AI Projects
 
-A collection of small-scale projects built while exploring various areas of Artificial Intelligence, Machine Learning, Deep Learning, Data Science, and Natural Language Processing.
+A collection of hands-on projects in **Machine Learning, Deep Learning and Natural Language Processing**. Each one is a self-contained implementation built to turn concepts from coursework, self-study and research papers into working code.
 
-This repository serves as a learning and experimentation space where I implement concepts, test ideas, and gain hands-on experience with different AI techniques and tools.
-
----
-
-## Areas of Exploration
-
-Projects in this repository may cover:
-
-* Machine Learning
-* Deep Learning
-* Computer Vision
-* Natural Language Processing (NLP)
-* Transformer Models
-* Data Analysis & Visualization
-* Feature Engineering
-* Customer Analytics
-* Predictive Modeling
-* Clustering & Segmentation
-* AI Experimentation
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Transformers-yellow)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
 
 ---
 
-## Repository Structure
+## 📂 Projects
 
-Each project is organized in its own directory and typically includes:
+| # | Project | Domain | Description |
+|---|---------|--------|-------------|
+| 1 | [CreditWise Loan System](./CreditWise_Loan_System) | Machine Learning | Predicts loan approval outcomes from applicant data |
+| 2 | [SmartCart Segmentation System](./SmartCart_Segmentation_System) | Machine Learning | Segments customers into groups using clustering, for targeted marketing |
+| 3 | [ANN Power Plant Energy Prediction](./ANN_PowerPlant_Energy_Prediction) | Deep Learning | Predicts power plant energy output with an Artificial Neural Network |
+| 4 | [CNN CIFAR-10 Image Classification](./CNN_CIFAR10_Image_Classfication) | Computer Vision | Classifies images into 10 categories with a Convolutional Neural Network |
+| 5 | [RNN IMDB Sentiment Analysis](./RNN_IMDB_Sentiment_Analysis) | NLP | Classifies movie reviews as positive or negative with a Recurrent Neural Network |
 
-* Project Notebook
-* Project-Specific Documentation
-* Implementation Details
-* Results and Insights
-
-Datasets and large model files are excluded from version control to keep the repository lightweight and focused on code and analysis.
-
----
-
-## Current Projects
-
-### Machine Learning
-
-* CreditWise Loan Approval Prediction System
-* SmartCart Customer Segmentation System
-
-### Deep Learning
-
-* ANN Power Plant Energy Prediction
-* CNN CIFAR-10 Image Classification
-* RNN IMDB Sentiment Analysis
+> Each project folder has its own README with the problem statement, approach, results and instructions for running it.
 
 ---
 
-## Technologies Used
+## 🗂️ Repository Structure
 
-Some of the tools and frameworks used across projects include:
+```
+minor-ai-projects/
+├── ANN_PowerPlant_Energy_Prediction/
+├── CNN_CIFAR10_Image_Classfication/
+├── CreditWise_Loan_System/
+├── RNN_IMDB_Sentiment_Analysis/
+├── SmartCart_Segmentation_System/
+├── .gitignore
+└── README.md
+```
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-Learn
-* PyTorch
-* TensorFlow
-* NLTK
-* Hugging Face Transformers
-* Jupyter Notebook
+Each project typically includes:
 
----
+- 📓 **Notebook / source code:** the full implementation
+- 📄 **README:** project-specific documentation
+- 📊 **Results and insights:** metrics, visualizations and observations
 
-## Purpose
-
-The primary goal of this repository is to build practical experience by implementing concepts learned through coursework, self-study, research papers, and hands-on experimentation.
-
-Projects range from classical machine learning models to deep learning architectures for computer vision and natural language processing.
+> ⚠️ Datasets and trained model files (e.g. `.pt`) are excluded from version control to keep the repository lightweight. Each project's README explains where to get the data or model.
 
 ---
 
-## Author
+## 🛠️ Tech Stack
 
-**Altaf Jawed**
+| Category | Tools |
+|----------|-------|
+| **Language** | Python |
+| **Data Handling** | Pandas, NumPy |
+| **Visualization** | Matplotlib, Seaborn |
+| **Machine Learning** | Scikit-Learn |
+| **Deep Learning** | PyTorch, TensorFlow |
+| **NLP** | NLTK, Hugging Face Transformers |
+| **Environment** | Jupyter Notebook |
 
-BS in Data Science and Applications, IIT Madras
+---
 
+## 🎯 Topics Covered
+
+`Supervised Learning` · `Unsupervised Learning` · `Clustering` · `Feature Engineering` · `Predictive Modeling` · `Neural Networks` · `CNNs` · `RNNs` · `Sentiment Analysis` · `Image Classification` · `Customer Analytics`
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/ajstyle920/minor-ai-projects.git
+cd minor-ai-projects
+
+# Move into a project
+cd <Project_Folder>
+
+# Install dependencies (if the project includes a requirements.txt)
+pip install -r requirements.txt
+
+# Launch the notebook
+jupyter notebook
+```
+
+---
+
+## 🎓 Purpose
+
+This repository is my **learning and experimentation space**. It documents my progress from classical machine learning models to deep learning architectures for computer vision and natural language processing.
+
+---
+
+## 👤 Author
+
+**Md Altaf Jawed**
+BS in Data Science and Applications, **IIT Madras**
+
+[![GitHub](https://img.shields.io/badge/GitHub-ajstyle920-181717?logo=github)](https://github.com/ajstyle920)
+
+---
+
+<p align="center">⭐ If you find these projects helpful, consider giving the repo a star!</p>
